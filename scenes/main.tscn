@@ -23,7 +23,8 @@ mesh = SubResource("BoxMesh_p17gm")
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D"]
 shape = SubResource("BoxShape3D_c8wsf")
 
-[node name="Player" parent="." instance=ExtResource("1_1gqvh")]
+[node name="Player" parent="." node_paths=PackedStringArray("camera") instance=ExtResource("1_1gqvh")]
+camera = NodePath("../CameraPivot/Camera3D")
 
 [node name="CameraPivot" type="Marker3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.819152, 0.573576, 0, -0.573576, 0.819152, 0, 0, 0)

@@ -22,11 +22,17 @@ your resources
  - [X] Implement basic movement controls
  - [X] Set up orthogonal camera
  - [X] Add walking animation
- - [ ] Add a woodcutting action
- - [ ] Change movement logic so player doesn't move faster on a diagonal
+ - [X] Switch to click-to-walk / pathfinding
 
- ### Basic Gameplay ###
+### UI ###
 
+ - [ ] Clean up code
+ - [ ] Add a click animation
+ - [ ] Add a custom mouse
+
+### Basic Gameplay ###
+
+ - [ ] 3D Tilemaps?
  - [ ] Add some tree sprites
  - [ ] Create some collision logic if player does woodcutting action next to tree
  - [ ] Give the tree a "health bar" and have it decrease when it's being chopped
@@ -35,6 +41,10 @@ your resources
  - [ ] Create a basic HUD with a wood icon and quantity
  - [ ] Add wood to your resources when you cut a tree down
 
- ### Other ###
+### Bugs ###
+ - [ ] Clicking on player directly causes them to face up
+
+
+### Other ###
 
  - [ ] ...
