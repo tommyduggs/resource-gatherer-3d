@@ -16,7 +16,25 @@ your resources
 
 ## TODO ##
 
+### Player ###
+
  - [X] Find some free assets for the player
- - [ ] Implement some sort of movement
- - [ ] Implement camera
+ - [X] Implement basic movement controls
+ - [X] Set up orthogonal camera
+ - [X] Add walking animation
+ - [ ] Add a woodcutting action
+ - [ ] Change movement logic so player doesn't move faster on a diagonal
+
+ ### Basic Gameplay ###
+
+ - [ ] Add some tree sprites
+ - [ ] Create some collision logic if player does woodcutting action next to tree
+ - [ ] Give the tree a "health bar" and have it decrease when it's being chopped
+ - [ ] Switch to a tree stump sprite once the tree's life hits 0
+ - [ ] Regenerate the tree after X seconds
+ - [ ] Create a basic HUD with a wood icon and quantity
+ - [ ] Add wood to your resources when you cut a tree down
+
+ ### Other ###
+
  - [ ] ...
