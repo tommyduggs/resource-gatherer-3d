@@ -16,7 +16,7 @@ your resources
 
 ## TODO ##
 
- - [ ] Find some free assets for the player
+ - [X] Find some free assets for the player
  - [ ] Implement some sort of movement
  - [ ] Implement camera
  - [ ] ...
