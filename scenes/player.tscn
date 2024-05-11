@@ -1,0 +1,7 @@
+[gd_scene load_steps=2 format=3 uid="uid://cpn7yxox14uch"]
+
+[ext_resource type="PackedScene" uid="uid://imkny5ocxyt5" path="res://art/Barbarian.glb" id="1_kghw8"]
+
+[node name="Player" type="CharacterBody3D"]
+
+[node name="Barbarian" parent="." instance=ExtResource("1_kghw8")]
