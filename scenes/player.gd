@@ -38,7 +38,7 @@ func get_world_position(mouse_position):
 	$Pivot.basis = Basis.looking_at(target_position - position, Vector3.UP, true)
 	
 func reached_destination():
-	return abs(target_position.x - position.x) < 1 and abs(target_position.z - position.z) < 1
+	return abs(target_position.x - position.x) < 0.1 and abs(target_position.z - position.z) < 0.1
 
 func _physics_process(delta):
 	if walking and not reached_destination():

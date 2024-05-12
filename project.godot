@@ -15,6 +15,10 @@ run/main_scene="res://scenes/main.tscn"
 config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://art/icon.svg"
 
+[display]
+
+mouse_cursor/custom_image="res://art/wood-custom-cursor-small.png"
+
 [input]
 
 move_left={
