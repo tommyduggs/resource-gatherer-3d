@@ -28,7 +28,7 @@ your resources
 
  - [ ] Clean up code
  - [ ] Add a click animation
- - [ ] Add a custom mouse
+ - [X] Add a custom mouse
 
 ### Basic Gameplay ###
 
@@ -42,6 +42,7 @@ your resources
  - [ ] Add wood to your resources when you cut a tree down
 
 ### Bugs ###
+
  - [ ] Clicking on player directly causes them to face up
 
 
