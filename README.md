@@ -33,8 +33,9 @@ your resources
 ### Basic Gameplay ###
 
  - [ ] 3D Tilemaps?
- - [ ] Add some tree sprites
- - [ ] Create some collision logic if player does woodcutting action next to tree
+ - [X] Add some tree sprites
+ - [ ] Create some collision logic so player doesn't walk through tree
+ - [ ] Add some chopping event triggered by clicking the tree
  - [ ] Give the tree a "health bar" and have it decrease when it's being chopped
  - [ ] Switch to a tree stump sprite once the tree's life hits 0
  - [ ] Regenerate the tree after X seconds

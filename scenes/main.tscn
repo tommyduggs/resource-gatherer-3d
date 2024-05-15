@@ -1,6 +1,7 @@
-[gd_scene load_steps=5 format=3 uid="uid://b26hwx0smg8ra"]
+[gd_scene load_steps=6 format=3 uid="uid://b26hwx0smg8ra"]
 
 [ext_resource type="PackedScene" uid="uid://cpn7yxox14uch" path="res://scenes/player.tscn" id="1_1gqvh"]
+[ext_resource type="PackedScene" uid="uid://bvls3mhdpm2gy" path="res://scenes/tree.tscn" id="2_ivf6a"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ufahe"]
 albedo_color = Color(0.287459, 0.460877, 0.152014, 1)
@@ -45,3 +46,6 @@ transform = Transform3D(1, 0, 0, 0, 0.688544, 0.725194, 0, -0.725194, 0.688544, 
 [node name="DirectionalLight3D2" type="DirectionalLight3D" parent="Lights"]
 transform = Transform3D(1, 0, 0, 0, -0.5, 0.866025, 0, -0.866025, -0.5, 0, 20.194, -25)
 shadow_enabled = true
+
+[node name="Tree Type0 05" parent="." instance=ExtResource("2_ivf6a")]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -5.18669, 0, 2.74614)
