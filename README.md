@@ -43,7 +43,7 @@ your resources
 
 ### Bugs ###
 
- - [ ] Clicking on player directly causes them to face up
+ - [X] Clicking on player directly causes them to face up
 
 
 ### Other ###

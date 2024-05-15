@@ -26,6 +26,8 @@ func get_world_position(mouse_position):
 	var space = get_world_3d().direct_space_state
 	var ray_query = PhysicsRayQueryParameters3D.new()
 	
+	ray_query.collision_mask = 2
+	
 	ray_query.from = from
 	ray_query.to = to
 	
