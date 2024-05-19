@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=3 uid="uid://bvls3mhdpm2gy"]
+[gd_scene load_steps=7 format=3 uid="uid://bvls3mhdpm2gy"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_iv60q"]
 albedo_color = Color(0.137366, 0.397964, 0.192473, 1)
@@ -42,8 +42,18 @@ _surfaces = [{
 blend_shape_mode = 0
 shadow_mesh = SubResource("ArrayMesh_yeyyq")
 
-[node name="Tree Type0 05" type="Node3D"]
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_68uky"]
+height = 3.3933
+radius = 0.22096
+
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_nvgxg"]
+height = 1.42612
+radius = 1.26064
+
+[node name="Tree Type0 05" type="StaticBody3D"]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0, 0, 0)
+collision_layer = 2
+collision_mask = 0
 
 [node name="Tree_Type0_05_mesh" type="MeshInstance3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0, 0)
@@ -54,3 +64,11 @@ skeleton = NodePath("")
 [node name="AnimationPlayer" type="AnimationPlayer" parent="."]
 
 [node name="Tree" type="Node" parent="."]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.62684, 0)
+shape = SubResource("CylinderShape3D_68uky")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.47315, 0)
+shape = SubResource("CylinderShape3D_nvgxg")
